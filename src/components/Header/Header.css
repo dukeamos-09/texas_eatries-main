@@ -1,0 +1,64 @@
+.app__header {
+  background: #f6f7f6;
+}
+
+.app__header-h1 {
+  font-family: sans-serif;
+  color: rgb(238, 15, 15);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 90px;
+  font-size: 60px;
+  margin: 0.5rem;
+}
+
+.burger__img {
+  width: 510px;
+  padding: 1rem;
+}
+
+.app__header-img img  {
+    width: 80%;
+}
+
+.app__wrapper_info  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.app__wrapper_info p  {
+  font-size: 38px;
+  font-weight: 400;
+  color: darkorange;
+}
+
+.app__wrapper_img  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__wrapper_img img  {
+  width: 50%;
+}
+
+.custom__button  {
+  padding: 1rem 4rem;
+  margin: 0.5rem;
+  background-color: rgb(21, 29, 29);
+  color: rgb(248, 247, 247);
+  border: none;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.custom__button:hover  {
+  background-color: rgb(254, 254, 255);
+  color: black;
+  cursor: pointer;
+  transition: 5s ease;
+  border: 2px solid #458736;
+}
